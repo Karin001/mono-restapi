@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const dbURI = 'mongodb://yukarin:414514614@ds153978.mlab.com:53978/yumlab';
+const dbURI = 'mongodb://username:youremail@xxx.xx.com:xxxx/xxxx';
 mongoose.connect(dbURI, {useMongoClient:true});
 
 mongoose.connection.on('connected', () => { 
